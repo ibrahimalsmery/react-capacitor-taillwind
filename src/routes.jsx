@@ -5,7 +5,7 @@ import LayoutMain from './pages/layouts/LayoutMain';
 
 export const routes = createBrowserRouter([
     {
-        path: '/', element: <LayoutMain/>, children: [
+        path: '/', element: <LayoutMain />, children: [
             { path: '/', element: <IndexPage /> },
             { path: '/about', element: <AboutPage /> }
         ]
